@@ -4,14 +4,15 @@ print("Welcome to the flip a coin game! You can pick how many times you want to 
 
 while True:
 
-	num = modules.ask()
+    num = modules.ask()
 
-	results = modules.flip_count(num)
+    results = modules.flip_count(num)
 
-	print(f"Over {num} fiips, the results are {results[0]} heads and {results[1]} tails!\n")
+    print(
+        f"Over {num} fiips, the results are {results[0]} heads and {results[1]} tails!\n")
 
-	if input("Would you like to play again? (y/n): ").lower() == 'y':
-		continue
-	else:
-		print("Thanks for playing!")
- 		break
+    if input("Would you like to play again? (y/n): ").lower() == 'y':
+        continue
+    else:
+        print("Thanks for playing!")
+        break
