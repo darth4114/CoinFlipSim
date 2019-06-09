@@ -1,6 +1,6 @@
 import modules
 
-print("Welcome to the flip a coin game!")
+print("Welcome to the flip a coin game! You can pick how many times you want to flip a coin, and this program will tell you how many were heads and how many were tails.\nLet's Begin!")
 
 while True:
 
@@ -14,5 +14,4 @@ while True:
 		continue
 	else:
 		print("Thanks for playing!")
-        print("This is an edit to test Git!")
-		break
+ 		break
