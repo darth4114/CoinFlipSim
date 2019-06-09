@@ -14,4 +14,5 @@ while True:
 		continue
 	else:
 		print("Thanks for playing!")
+        print("This is an edit to test Git!")
 		break
